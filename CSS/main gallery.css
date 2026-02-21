@@ -1,0 +1,116 @@
+                                */*this is a header*/
+
+
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(264, 7%, 86%);
+}
+.main-nefor{
+    margin: 0 20vw;
+    background-color: #ff0000;
+}
+.wrapper-gallery{
+    margin: 0 2vw;  
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+}
+.wrapper-gallery nav{
+    display: grid;
+    float: right;
+    padding-top:4px;
+}
+#index-gallery h2{
+ text-transform: uppercase;
+}
+/*footer social media*/
+.button{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    max-width: 0 3px;
+    overflow: hidden;
+    background:hsl(139, 91%, 9%);
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0 0.1);
+    transition: all 0.3s ease-out;
+    margin-left: 100px;
+}
+.wrapper .button:hover{
+    width: 100px;
+}
+.wrapper{
+    margin-left: 100px;
+    width: 70%;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 25px;
+    box-sizing: border-box;
+    line-height: 25px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1)
+:hover.icon{
+    background-color: hwb(263 2% 46%);
+}
+.wrapper .button:nth-child(2)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(3)
+:hover.icon{
+    background-color: hwb(0 2% 46%);
+}
+.wrapper .button:nth-child(4)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(5)
+:hover.icon{
+    background-color: hwb(135 2% 46%);
+}
+.wrapper .button .icon a{
+    font-size: 25px;
+    line-height: 25px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1)
+span{
+    color: blue;
+    font: size 15px;
+}
+.wrapper .button:nth-child(2)
+span{
+    color: rgb(10, 179, 75);
+    font: size 15px;
+}
+.wrapper .button:nth-child(3)
+span{
+    color: #ff0000;
+    font: size 15px;
+}
+.wrapper .button:nth-child(4)
+span{
+    color: hsl(352, 92%, 15%);
+    font-size:15px;
+}
+.wrapper .button:nth-child(5)
+span{
+    color: lch(84.03% 103.96 139.59);
+    font: size 15px;
+}
+
+
+

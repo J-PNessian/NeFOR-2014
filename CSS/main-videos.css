@@ -1,0 +1,76 @@
+
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 100px;
+    border-bottom: #05dd3b 10px solid;
+    min-width: 100%px;
+    cursor: pointer;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5PX;
+    align-items: center;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+header #branding{
+    float: left;
+    background-image:url(../img/img1.png);
+}
+
+header #branding h3{
+margin: 2px;
+padding: 2px;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+header nav{
+    float: left;
+    margin-left:41px;
+    background-image: url(../img/img1.png);
+}
+header .highlight, header .current a{
+    color: #e84914;
+    font: bold;
+}
+header a:hover{
+    color: hwb(150 2% 57% / 0.801);
+    font-weight: bold;
+}
+header img{
+    width: 100px;
+    height: 90px;
+    float: left;
+    padding-left: 2px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.nefor-logo1{
+    width: 15%;
+    float: left;  
+}
+.nefor-logo2{
+    width: 10%;
+    float: right; 
+}
+.nefor-logo1 img{
+    width: 100px;
+    height: 90px;
+}
+.nefor-logo2 img{
+    width: 100px;
+    float: right;
+    height: 100%;
+    padding-top: 0;
+}
