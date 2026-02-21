@@ -2,20 +2,36 @@
 <html lang="en">
 <head>
     <title>HOME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./CSS/general.css">
     <link rel="stylesheet" href="./CSS/swiper-bundle.min.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">   
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-<body>
+ <body>
     <header>
-        <img src="./img/img166.jpg">                       
-      <div id="branding"><h3><span class="highlight"> NESSIAN FAMILY ORGANIZATION </span>-NeFOR</h3></div>
-      <nav>
-            <ul>
+      <img src="./img/img166.png">                       
+      <div id="branding"><h1><span class="highlight"><!---- NESSIAN FAMILY ORGANIZATION </span>- -->NeFOR</h1></div>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        </div>
+            <ul class="nav-links">
                 <li class="current"><a href="index.html"><i class="fa fa-home"></i>HOME</a></li>
                 <li><a href="./ABOUT US/ABOUT US.html"><i class="fa fa-user"></i>ABOUT US</a></li>
                 <li><a href="#"><i class="fa fa-clone"></i>OUR MISSION<i class="fa fa-caret-down"></i></a>
@@ -32,14 +48,69 @@
                 <li><a href="./GALLERY.html"><i class="fa fa-photo"></i>GALLERY</a></li>
             </ul>
         </nav> 
-          <img src="./img/img166.jpg">
       </header>
-      <section id="nefor-showcase">
-        <img src="./img/img144.jpg">
-        <div class="nefor-container2">
-          <img src="./img/img1.png">
+       
+   <!--This is a slide-->
+          <div class="containers">
+      <div class="slide">
+         <div class="item" style="background-image: url(./img/img157.jpg);">
+        <div class="contents">
+        <div class="names">EMPOWERMENT</div>
+        <div class="des"> Empowerment is the fourth pillar of the Nessian Family Organization.
+                     As an Organization, NeFOR believe that the best way for any human to be an independence person 
+                     is for that person to have self-empowerment</div>
+        <button><a href="./OUR MISSION/AGRICULTURE.html">MORE ABOUT EMPOWERMENT</a></button>
         </div>
-      </section>
+        </div>
+        <div class="item" style="background-image: url(./img/img36.jpg);">
+        <div class="contents">
+        <div class="names">NeFOR OFFICIAL WEBSITE</div>
+        <div class="des">The vistion of the Nessian Family Organization-NeFOR is base on four pillars
+          <li>1. Agriculture</li>
+          <li>2. Education</li>
+          <li>3. Health</li>
+          <li>4. Empowerment</li>
+        </div>
+        </div>
+        </div>
+        
+        <div class="item" style="background-image: url(./img/img12.jpg);">
+        <div class="contents">
+        <div class="names">AGRICULTURE</div>
+        <div class="des"> Ariculture is the very first focus point of the Nessian Family Organization NeFOR.
+                        The Agriculture pillow of the Nessian Family Organization is resposible for   </div>
+        <button><a href="./OUR MISSION/EDUCATION.html">MORE ABOUT AGRICULTURE</a></button>
+        </div>
+        </div>
+
+        <div class="item" style="background-image: url(./img/img157.jpg);">
+        <div class="contents">
+        <div class="names">EDUCATION</div>
+        <div class="des">Education is the second pillow of the Nessian Family Organization-NeFOR.
+                              As am Organization, we belived that Education is a powerful tools us to bring any strong enemies down.</div>
+        <button><a href="./OUR MISSION/EDUCATION.html">MORE ABOUT EDUCATION</a></button>
+        </div>
+        </div>
+        
+        <div class="item" style="background-image: url(./img/img156.jpeg);">
+        <div class="contents">
+        <div class="names">HEALTH</div>
+        <div class="des">Health is the 3rd pillar of the Nessian
+                     Family Organization NEFOR. As an organization, we believed that the live spend of any human depends on the health status 
+                     of that person. With this believed,</div>
+        <button><a href="./OUR MISSION/HEALTH.html">MORE ABOUT EHEALTH</a></button>
+        </div>
+        </div>
+
+      </div>
+      <div class="buttons">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+
+      </div>
+    </div>
+     <br>
+      <!--End of slide-->
     <div class="NeFOR">
          <h1 class="EX">executive summary</h1>
         <p>The Nessain Family Organization NeFOR stands to serve the purpose of administering how we feed, 
@@ -50,6 +121,7 @@
       </div>
      
    <!--new card-->  
+   <br><br>
   
     <div class="slide-container swiper">
       <div class="slide-content">
@@ -68,12 +140,13 @@
               <p class="description">
               Health is the second pillar of the Nessian Family Organization NEFOR. As an organization, 
               we believed that the live spend of any human depends on the health status of that person. With this believed, 
-              the Nessian Family Organization have a pillar that focus on all health-related issues within the Family, community, County, and the country at large. The main purpose of the health department is to make sure that all Members and nonmembers of this organization
-  live in good health be it physical, Mental or Spiritually. It 
+              the Nessian Family Organization have a pillar that focus on all health-related issues within the Family, community, 
+              County, and the country at large. The main purpose of the health department is to make sure that all Members and nonmembers of this organization
+            live in good health be it physical, Mental or Spiritually. It 
               </p>
               
               <section id="buttons">
-                <a href="./OUR MISSION/OUR MISSION.html#MORE-ABOUT-HEALTH">MORE ABOUT HEALTH</a>
+                <a href="./OUR MISSION/HEALTH.html">MORE ABOUT HEALTH</a>
               </section>
             </div>
           </div>
@@ -99,7 +172,7 @@
 
               </p>
              <section id="buttons">
-              <a href="./OUR MISSION/OUR MISSION.html#MORE-ABOUT-AGRICULTURE">MORE ABOUT AGRICULTURE</a>
+              <a href="./OUR MISSION/AGRICULTURE.html">MORE ABOUT AGRICULTURE</a>
              </section>
             </div>
           </div>
@@ -123,7 +196,7 @@
 
               </p>
               <section id="buttons">
-                <a href="./OUR MISSION/OUR MISSION.html#MORE-ABOUT-EDUCATION">MORE ABOUT EDUCATION</a>
+                <a href="./OUR MISSION/EDUCATION.html">MORE ABOUT EDUCATION</a>
               </section>
             </div>
           </div>
@@ -147,7 +220,7 @@
               </p>
               
               <section id="buttons">
-                <a href="./OUR MISSION/OUR MISSION.html#MORE-ABOUT-EMPOWERMENT">MORE ABOUT EMPOWERMENT</a>
+                <a href="./OUR MISSION/EMPOWERMENT.html">MORE ABOUT EMPOWERMENT</a>
                </section>
             </div>
           </div>
@@ -200,7 +273,7 @@ objectives, and initiatives that drive the organization’s growth and impact.
 
               </p>
               <section id="buttons">
-                <a href="./ABOUT US/ABOUT US.html#MORE-ABOUT-PRESIDENT">MORE ABOUT PRESIDENT</a>
+                   <a href="./ABOUT US/ABOUT US.html#MORE-ABOUT-PRESIDENT">MORE ABOUT PRESIDENT</a>
               </section>
             </div>
           </div>
@@ -287,21 +360,14 @@ the organization make informed decisions aligned with its mission and goals.
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
-      
     </div>
-
-  
+    
   <!--end of card-->
    <footer>
     <h3>You are Welcome to follow us on the following pages:</h3>
      <nav class="nefor-logo1">
-        <a href="#"><img src="./img/img1.png"></a>
+        <a href="#"><img src="./img/img169.png"></a>
      </nav>
-
-     <nav class="nefor-logo2">
-        <a href="#"><img src="./img/img1.png"></a>
-     </nav>
-
         <div class="wrapper">
             <div class="button">
                 <div class="icon">
@@ -344,6 +410,7 @@ the organization make informed decisions aligned with its mission and goals.
 
 <script src="./js/swiper-bundle.min.js"></script>
 <script src="./js/main js.js"></script>
+<script src="./js/paye.js"></script>
 </body>
 
 </html>
