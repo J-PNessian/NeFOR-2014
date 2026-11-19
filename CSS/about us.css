@@ -1,0 +1,187 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+/*header section*/
+/*end of Header*/
+#container-nefor{
+    padding: 2px;
+    margin: 5px;  
+    background-color: #bcd2c4;
+}
+.leadership span{
+    color: rgba(214, 30, 30, 0.863);
+    font-size: 40px;
+}
+.Nefor8{
+    background-color: #e84914;
+}
+
+/*Resposibilites and duties*/
+
+/*link buttons*/
+h1{
+    color: hsl(140, 2%, 34%);
+    text-align: center;
+    font-size: 2.5rem;
+}
+#MORE-ABOUT-Chairmen {
+    background-color: hwb(0 85% 14%);
+}
+
+section h2{
+    color: rgba(17, 107, 29, 0.808);
+    font-size: 2.1em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+.Leaders{
+    background-color: #f6f0f0;
+}
+.Pre1{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle(150px);
+    shape-margin: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(7px 7px 7px #666666);
+}
+.Pre{
+    height:150px;
+    width: 150px;
+    float: right;
+    border-radius: 100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+.Pres{
+    font-size: 1.3rem;
+}
+
+.jpn{
+    text-align: justify;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    margin: 2px;
+}
+.Chairman1{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle(150px);
+    shape-margin: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(7px 7px 7px #666666);
+}
+.Chairman{
+    height:150px;
+    width: 150px;
+    float: right;
+    border-radius: 100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+.SG1{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    float:left;
+    background: radial-gradient(lab(91.72% -14.79 10.85), hsl(246, 95%, 37%) 75%);
+}
+.SG{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    float: right;
+    background: radial-gradient(hwb(120 36% 48%), hsl(246, 95%, 37%) 75%);
+}
+.p{
+    text-align: justify;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    margin: 2px;
+    color: hwb(137 1% 93%);
+}
+.Advisor1{
+    height:154px;
+    width:154px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 5px;
+    float:left;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+.Advisor{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 5px;
+    float: right;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+/* This is a footer*/
+
+.scroll-btn{
+	position: fixed;
+	right:5rem;
+	bottom: 5rem;
+	width: 2.2rem;
+	height: 2.2rem;
+	background-color: #05a437;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color:hsl(272, 90%, 32%);
+	box-shadow:0.0.1rem 0.6rem rgb(0, 0, 0,0.3);
+	border-radius: 0.3rem;
+}
+/* For devices with a max width of 1200px (large screens) */
+@media (max-width: 1200px) {
+    header nav {
+        margin-left: 0;
+        text-align: center;
+    }
+    .about-nefor {
+        width: 100%;
+        float: none;
+    }
+    .wrapper {
+        margin-left: 0;
+        width: 90%;
+    }
+}
+
+/* For devices with a max width of 768px (tablets) */
+@media (max-width: 768px) {
+    
+    header #branding h3 {
+        font-size: 1.5rem;
+    }
+    .scroll-btn {
+        right: 2rem;
+        bottom: 2rem;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.3rem;
+    }
+    footer .nefor-logo1 img, footer .nefor-logo2 img {
+        width: 80px;
+        height: auto;
+    }
+}
